@@ -19,19 +19,9 @@ This model uses the FitzHugh-Nagumo equations to describe the electrical activit
 - **V(t):** Membrane voltage of the neuron at time t.
 - **W(t):** Recovery variable related to the neuron’s firing ability.
 
-**Equations:**
-- \( \frac{dV}{dt} = c \left(I - \frac{V^3}{3} - W + V \right) \)  (Eq.1)
-- \( \frac{dW}{dt} = \epsilon \left(V + a - bW \right) \)  (Eq.2)
-
-where:
-- \( V \) represents membrane potential,
-- \( W \) represents the recovery variable,
-- \( I \) is an external stimulus,
-- \( c, a, b \) are constants defining system behavior,
-- \( \epsilon \) is a small parameter indicating timescale separation.
 
 **Results:**
-![Epilepsy Model Results](Modeling and Simulation/Epilepsy.png)  <!-- Replace with your actual image path -->
+![Epilepsy Model Results](Modeling and Simulation/Epilepsy.png)
 
 The graph shows membrane voltage \( V \) (purple line) spiking over time, with the recovery variable \( W \) (green line) depicting the neuron's return to its initial state. This helps identify seizure thresholds and understand the refractory period preventing immediate neuron firing.
 
