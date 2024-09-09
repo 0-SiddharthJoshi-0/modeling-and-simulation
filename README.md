@@ -6,7 +6,7 @@
 This model uses a compartmental approach to represent the progression of Alzheimer’s disease. It divides the brain into compartments for healthy neurons, neurons with amyloid-β plaques, and neurons with tau tangles. Transition rates between these compartments are influenced by factors such as amyloid-β production, tau phosphorylation, and neuronal death.
 
 **Results:**
-![Alzheimer's Disease Results](Modeling and Simulation/alzheimer.png)  <!-- Replace with your actual image path -->
+![Alzheimer's Disease Results](Modeling%20and%20Simulation/alzheimer.png)
 
 As amyloid-β and tau tangles increase, they disrupt communication between healthy neurons, leading to dementia and memory loss. Potential treatments could target amyloid-β and tau proteins to slow their growth.
 
@@ -19,9 +19,8 @@ This model uses the FitzHugh-Nagumo equations to describe the electrical activit
 - **V(t):** Membrane voltage of the neuron at time t.
 - **W(t):** Recovery variable related to the neuron’s firing ability.
 
-
 **Results:**
-![Epilepsy Model Results](Modeling and Simulation/Epilepsy.png)
+![Epilepsy Model Results](Modeling%20and%20Simulation/Epilepsy.png)
 
 The graph shows membrane voltage \( V \) (purple line) spiking over time, with the recovery variable \( W \) (green line) depicting the neuron's return to its initial state. This helps identify seizure thresholds and understand the refractory period preventing immediate neuron firing.
 
@@ -37,7 +36,7 @@ This two-compartmental model represents Parkinson’s disease progression. It in
 The model simulates dopamine loss and the impact of levodopa treatment on motor symptoms.
 
 **Results:**
-![Parkinson's Disease Results](Modeling and Simulation/parkinson.png)  <!-- Replace with your actual image path -->
+![Parkinson's Disease Results](Modeling%20and%20Simulation/parkinson.png)
 
 - **Dopamine Levels:** Represented by the red line, showing a decrease over time.
 - **Motor Symptoms Severity:** Represented by the blue line, increasing as dopamine levels fall.
